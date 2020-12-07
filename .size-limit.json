@@ -1,0 +1,10 @@
+[
+  {
+    "path": "dist/gtag-helper.cjs.production.min.js",
+    "limit": "10 KB"
+  },
+  {
+    "path": "dist/gtag-helper.esm.js",
+    "limit": "10 KB"
+  }
+]
