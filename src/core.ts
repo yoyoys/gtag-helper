@@ -94,6 +94,10 @@ export class GtagHelper {
     this.gtag('set', payload);
   }
 
+  setUserProperties(payload: Record<string, any>) {
+    this.gtag('set', 'user_properties', payload);
+  }
+
   // ! this prefer to google's guide
   // @ts-ignore
   // eslint-disable-next-line @typescript-eslint/no-unused-vars,class-methods-use-this

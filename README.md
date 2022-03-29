@@ -33,7 +33,7 @@ npm i gtag-helper
 ```
 
 ```ts
-import GtagHelper from '@cark/gtag-helper';
+import GtagHelper from 'gtag-helper';
 
 const gtag = new GtagHelper(options.GA_MEASUREMENT_ID, { noInit: true });
 
@@ -43,7 +43,6 @@ const options: GtagConfigOptions = {
 }
 
 gtag.config(options);
-
 // you can easily add this to your SPA router changed event.
 gtag.pageView();
 
